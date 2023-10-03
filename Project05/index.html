@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Documentation Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>JavaScript Documentation</h1>
+        <ul>
+          <a href="#Introduction">
+            <li>Introduction</li>
+          </a>
+          <a href="#Complete_Beginner">
+            <li>Complete Beginner</li>
+          </a>
+          <a href="#Intermediate">
+            <li>Intermediate</li>
+          </a>
+          <a href="#Advance">
+            <li>Advance</li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="Introduction">
+        <h2>Introduction</h2>
+        <article>
+          <p>
+            JavaScript (JS) is a lightweight interpreted (or just-in-time
+            compiled) programming language with first-class functions. While it
+            is most well-known as the scripting language for Web pages, many
+            non-browser environments also use it, such as Node.js, Apache
+            CouchDB and Adobe Acrobat. JavaScript is a prototype-based,
+            multi-paradigm, single-threaded, dynamic language, supporting
+            object-oriented, imperative, and declarative (e.g. functional
+            programming) styles.
+          </p>
+          <p>
+            The standards for JavaScript are the ECMAScript Language
+            Specification (ECMA-262) and the ECMAScript Internationalization API
+            specification (ECMA-402). As soon as one browser implements a
+            feature, we try to document it. This means that cases where some
+            proposals for new ECMAScript features have already been implemented
+            in browsers, documentation and examples in MDN articles may use some
+            of those new features. Most of the time, this happens between the
+            stages 3 and 4, and is usually before the spec is officially
+            published.
+          </p>
+          <ul>
+            <li>The JavaScript guide</li>
+            <li>The JavaScript reference</li>
+          </ul>
+        </article>
+      </section>
+      <section id="Complete_Beginner">
+        <h2>What is JavaScript?</h2>
+        <article>
+          <p>
+            JavaScript is a powerful programming language that can add
+            interactivity to a website. It was invented by Brendan Eich.
+            JavaScript is versatile and beginner-friendly. With more experience,
+            you'll be able to create games, animated 2D and 3D graphics,
+            comprehensive database-driven apps, and much more! JavaScript itself
+            is relatively compact, yet very flexible. Developers have written a
+            variety of tools on top of the core JavaScript language, unlocking a
+            vast amount of functionality with minimum effort. These include:
+          </p>
+          <ul>
+            <li>
+              Browser Application Programming Interfaces (APIs) built into web
+              browsers, providing functionality such as dynamically creating
+              HTML and setting CSS styles; collecting and manipulating a video
+              stream from a user's webcam, or generating 3D graphics and audio
+              samples.
+            </li>
+            <li>
+              Third-party APIs that allow developers to incorporate
+              functionality in sites from other content providers, such as
+              Twitter or Facebook. Third-party frameworks and libraries that you
+              can apply to HTML to accelerate the work of building sites and
+              applications.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section id="Intermediate">
+        <h2>Understanding client-side JavaScript frameworks</h2>
+        <article>
+          <p>
+            JavaScript frameworks are an essential part of modern front-end web
+            development, providing developers with tried and tested tools for
+            building scalable, interactive web applications. Many modern
+            companies use frameworks as a standard part of their tooling, so
+            many front-end development jobs now require framework experience. In
+            this set of articles, we are aiming to give you a comfortable
+            starting point to help you begin learning frameworks. As an aspiring
+            front-end developer, it can be hard to work out where to begin when
+            learning frameworks — there are so many frameworks to choose from,
+            new ones appear all the time, they mostly work in a similar way but
+            do some things differently, and there are some specific things to be
+            careful about when using frameworks. 
+          </p>
+          <p>We are not aiming to
+            exhaustively teach you everything you need to know about
+            React/ReactDOM, or Vue, or some other specific framework; the
+            framework teams' own docs (and other resources) do that job already.
+            Instead, we want to back up and first answer more fundamental
+            questions such as:
+        <ul>
+            <li>Why should I use a framework? What problems do they solve for me?</li>
+            <li>What questions should I ask when trying to choose a framework? Do I even need to use a framework?</li>
+            <li>What features do frameworks have? How do they work in general, and how do frameworks' implementations of these features differ?</li>
+        </ul>
+    </p>
+        </article>
+      </section>
+      <section id="Advance">
+        <h2>Inheritance and the prototype chain</h2>
+        <article>
+          <p>
+            JavaScript is a bit confusing for developers experienced in class-based languages (like Java or C++), as it is dynamic and does not have static types.
+
+            When it comes to inheritance, JavaScript only has one construct: objects. Each object has a private property which holds a link to another object called its prototype. That prototype object has a prototype of its own, and so on until an object is reached with null as its prototype. By definition, null has no prototype, and acts as the final link in this prototype chain. It is possible to mutate any member of the prototype chain or even swap out the prototype at runtime, so concepts like static dispatching do not exist in JavaScript.
+            
+            While this confusion is often considered to be one of JavaScript's weaknesses, the prototypical inheritance model itself is, in fact, more powerful than the classic model. It is, for example, fairly trivial to build a classic model on top of a prototypical model — which is how classes are implemented. 
+          </p>
+        
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

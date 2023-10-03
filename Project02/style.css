@@ -1,0 +1,52 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body{
+    background-color: burlywood;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.content{
+    width: 45rem;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 3.1rem;
+    padding: 1.2rem;
+    box-shadow: 4px 3px 5px rgba(1,1,1,0.4);
+    
+}
+
+.content h2{
+    font-family: cursive;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.form-control{
+    display: grid;
+    gap: 5px;
+   
+}
+
+ label{
+    font-size: 20px;
+    font-family:cursive;
+}
+
+input, select, textarea{
+    padding: 6px 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
